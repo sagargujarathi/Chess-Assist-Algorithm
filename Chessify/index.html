@@ -1,0 +1,141 @@
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/resources/strategy.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="main.js" defer></script>
+    <title>Chessify</title>
+  </head>
+
+  <body>
+    <!-- <div class="close-img tempy"></div> -->
+
+    <div class="chess-container">
+      <div class="piece p1" id="p-0-0"></div>
+      <div class="piece p1" id="p-0-1"></div>
+      <div class="piece p1" id="p-0-2"></div>
+      <div class="piece p1" id="p-0-3"></div>
+      <div class="piece p1" id="p-0-4"></div>
+      <div class="piece p1" id="p-0-5"></div>
+      <div class="piece p1" id="p-0-6"></div>
+      <div class="piece p1" id="p-0-7"></div>
+      <div class="piece p2" id="p-1-0"></div>
+      <div class="piece p2" id="p-1-1"></div>
+      <div class="piece p2" id="p-1-2"></div>
+      <div class="piece p2" id="p-1-3"></div>
+      <div class="piece p2" id="p-1-4"></div>
+      <div class="piece p2" id="p-1-5"></div>
+      <div class="piece p2" id="p-1-6"></div>
+      <div class="piece p2" id="p-1-7"></div>
+      <div class="piece p3" id="p-2-0"></div>
+      <div class="piece p3" id="p-2-1"></div>
+      <div class="piece p3" id="p-2-2"></div>
+      <div class="piece p3" id="p-2-3"></div>
+      <div class="piece p3" id="p-2-4"></div>
+      <div class="piece p3" id="p-2-5"></div>
+      <div class="piece p3" id="p-2-6"></div>
+      <div class="piece p3" id="p-2-7"></div>
+      <div class="piece p4" id="p-3-0"></div>
+      <div class="piece p4" id="p-3-1"></div>
+      <div class="piece p4" id="p-3-2"></div>
+      <div class="piece p4" id="p-3-3"></div>
+      <div class="piece p4" id="p-3-4"></div>
+      <div class="piece p4" id="p-3-5"></div>
+      <div class="piece p4" id="p-3-6"></div>
+      <div class="piece p4" id="p-3-7"></div>
+      <div class="piece p5" id="p-4-0"></div>
+      <div class="piece p5" id="p-4-1"></div>
+      <div class="piece p5" id="p-4-2"></div>
+      <div class="piece p5" id="p-4-3"></div>
+      <div class="piece p5" id="p-4-4"></div>
+      <div class="piece p5" id="p-4-5"></div>
+      <div class="piece p5" id="p-4-6"></div>
+      <div class="piece p5" id="p-4-7"></div>
+      <div class="piece p6" id="p-5-0"></div>
+      <div class="piece p6" id="p-5-1"></div>
+      <div class="piece p6" id="p-5-2"></div>
+      <div class="piece p6" id="p-5-3"></div>
+      <div class="piece p6" id="p-5-4"></div>
+      <div class="piece p6" id="p-5-5"></div>
+      <div class="piece p6" id="p-5-6"></div>
+      <div class="piece p6" id="p-5-7"></div>
+      <div class="piece p7" id="p-6-0"></div>
+      <div class="piece p7" id="p-6-1"></div>
+      <div class="piece p7" id="p-6-2"></div>
+      <div class="piece p7" id="p-6-3"></div>
+      <div class="piece p7" id="p-6-4"></div>
+      <div class="piece p7" id="p-6-5"></div>
+      <div class="piece p7" id="p-6-6"></div>
+      <div class="piece p7" id="p-6-7"></div>
+      <div class="piece p8" id="p-7-0"></div>
+      <div class="piece p8" id="p-7-1"></div>
+      <div class="piece p8" id="p-7-2"></div>
+      <div class="piece p8" id="p-7-3"></div>
+      <div class="piece p8" id="p-7-4"></div>
+      <div class="piece p8" id="p-7-5"></div>
+      <div class="piece p8" id="p-7-6"></div>
+      <div class="piece p8" id="p-7-7"></div>
+      <div class="display-container">
+        <div class="details-card">
+          <div class="black-box"></div>
+          <div class="white-box"></div>
+        </div>
+        <div class="turn"></div>
+        <div class="timer"></div>
+        <button class="reset-game">Rematch</button>
+        <a href="https://github.com/SagarGujarathi/Chess-Rules/tree/main" target="_blank">
+          <button class="details">Details</button>
+        </a>
+        <div class="about-me">
+          <div class="social-media">
+            <a href="https://www.linkedin.com/in/sagar-gujarathi-0a5912247/" target="_blank">
+              <img src="/resources/linkedin.png" alt="linkedin" c>
+            </a>
+            <a href="https://discord.gg/VKtC5MuC" target="_blank">
+              <img src="/resources/discord.png" alt="discord">
+            </a>
+            <a href="https://github.com/SagarGujarathi" target="_blank">
+              <img src="/resources/github.png" alt="github">
+            </a>
+          </div>
+          Made with ❤️ by Sagar Gujarathi
+        </div>
+      </div>
+    </div>
+    <div class="start-popup">
+      <img src="/resources/strategy.png" alt="" id="start-popup-img">
+      <div class="web-name">Chessify</div>
+      <button class="start">Start Game</button>
+      <div class="instructions"><strong>NOTE : </strong> Each player has 10 minutes to play the game. The game starts with
+        the white turn.
+        Don't forget to check the game rules if you are a beginner. This is the best player vs. player chess website
+        available on the internet!</div>
+    </div>
+    <div class="block-screen"></div>
+    <div class="alert-container">
+      <div class="message-container">Black is the winner!</div>
+      <button class="ok-btn">Ok</button>
+      <div class="note-container"><strong>NOTE : </strong> Click OK and rematch to play again!</div>
+    </div>
+    <div class="tooltip-for-pawn white-toolkit">
+      <div class="tooltip-piece" style="background-image: url(/pieces/wq.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/wr.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/wn.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/wb.png);"></div>
+    </div>
+    <div class="tooltip-for-pawn black-toolkit">
+      <div class="tooltip-piece" style="background-image: url(/pieces/bq.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/br.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/bn.png);"></div>
+      <div class="tooltip-piece" style="background-image: url(/pieces/bb.png);"></div>
+    </div>
+  </body>
+
+  </html>
